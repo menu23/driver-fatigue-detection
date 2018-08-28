@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Driver Assist</string>
+    <string name="title_activity_contact">Quick Contacts</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_guide_activity">User Guide</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">DONE</string>
+
+    <string name="slide_1_title">Easy Setup</string>
+    <string name="slide_1_desc">Get ready to go in less than 5 minutes.\nPair your device and you\'re set!</string>
+
+    <string name="slide_2_title">Stay Safe</string>
+    <string name="slide_2_desc">Tiresome long drives are no more a worry.\nYou can know when to take a break!</string>
+
+    <string name="slide_3_title">Alert Friends</string>
+    <string name="slide_3_desc">Let your friends know.\nSet any contact as your emergency number!</string>
+
+    <string name="slide_4_title">Get Started!</string>
+    <string name="slide_4_desc">Tell us your name.\nIt will help while sending alerts to your\nemergency contacts.</string>
+
+    <string name="play_again_desc">To see the slider again, go to Settings -> Welcome Screen</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="about_text">
+        Sleepy Driver\nVersion 3.0\nRelease: 02-06-2018\n\nCredits:\nMenaka Ravi - 1411003\nPranali Awasekar - 1411004\nShivani Doke - 1411013
+    </string>
+
+    <string name="how_to_use">
+        1. Set your emergency contact from your contact list through the option in the main menu.
+        \n\n2. Make sure your phone\'s Bluetooth and GPS are turned on.
+        \n\n3. Pair your phone to raspberrypi through Bluetooth. You can use Device Status option in the main menu to check the pairing.
+        \n\n4. If you are detected to be slightly tired, your device will alert your by blinking LED lights and beeping.
+        \n\n5. If you seem extremely sleepy, your phone will send three SMSs to your emergency contact, spaced by 5 minutes each, containing your current location.
+    </string>
+
+    <string name="do_dont">
+        Dos
+        \n\n1. Keep your device powered on at all times to prevent mishaps.
+        \n2. Your phone must remain paired for remote alerts to be functional.
+        \n\nDon\'ts
+        \n\n1. Avoid wearing sunglasses, scarves or any other apparel that occlude your eyes and mouth.
+        \n2. Do not move the position of the device after installation.
+    </string>
+</resources>

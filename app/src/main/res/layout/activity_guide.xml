@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.rxbeacons.GuideActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_screen"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Welcome Screen"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="How to Use"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:background="@drawable/borders"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="24dp"
+            android:text="@string/how_to_use"
+            android:textSize="16sp"
+            android:textColor="@android:color/secondary_text_light"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Dos and Don\'ts"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:background="@drawable/borders"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="24dp"
+            android:text="@string/do_dont"
+            android:textSize="16sp"
+            android:textColor="@android:color/secondary_text_light"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+</ScrollView>
